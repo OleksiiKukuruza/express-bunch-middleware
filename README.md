@@ -34,13 +34,13 @@ will responds with:
 
 ```json
 {
-    users: [{
-        name: 'John',
-        surname: 'Doe'
+    "users": [{
+        "name": "John",
+        "surname": "Doe"
     }],
-    countries: [{
-        name: 'United States of America',
-        countryCode: 'USA'
+    "countries": [{
+        "name": "United States of America",
+        "countryCode": "USA"
     }]
 }
 ```
