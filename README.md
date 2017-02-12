@@ -2,7 +2,8 @@
 
 Express middleware to combine multiple API requests into one.
 
-[![Build Status](https://travis-ci.org/OleksiiKukuruza/express-bunch-middleware.svg?branch=master)](https://travis-ci.org/OleksiiKukuruza/express-bunch-middleware)[![Coverage Status](https://coveralls.io/repos/github/OleksiiKukuruza/express-bunch-middleware/badge.svg?branch=master)](https://coveralls.io/github/OleksiiKukuruza/express-bunch-middleware?branch=master)
+[![Build Status](https://travis-ci.org/OleksiiKukuruza/express-bunch-middleware.svg?branch=master)](https://travis-ci.org/OleksiiKukuruza/express-bunch-middleware)
+[![Coverage Status](https://coveralls.io/repos/github/OleksiiKukuruza/express-bunch-middleware/badge.svg?branch=master)](https://coveralls.io/github/OleksiiKukuruza/express-bunch-middleware?branch=master)
 
 ## Usage
 
