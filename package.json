@@ -1,18 +1,28 @@
 {
   "name": "express-bunch-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node example.js",
-    "develop": "nodemon example.js"
+    "develop": "nodemon example.js",
+    "test": "mocha --reporter spec",
+    "tdd": "mocha --reporter spec -w"
   },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "combine",
+    "middleware",
+    "bunch",
+    "requests"
+  ],
   "author": "Oleksii Kukuruza",
   "license": "MIT",
   "devDependencies": {
+    "chai": "^3.5.0",
     "express": "^4.14.1",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
   },
   "dependencies": {
     "request": "^2.79.0"

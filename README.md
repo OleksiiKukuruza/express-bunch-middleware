@@ -2,6 +2,8 @@
 
 Express middleware to combine multiple API requests into one.
 
+[![Build Status](https://travis-ci.org/OleksiiKukuruza/express-bunch-middleware.svg?branch=master)](https://travis-ci.org/OleksiiKukuruza/express-bunch-middleware)
+
 ## Usage
 
 ```javascript
