@@ -4,7 +4,7 @@ const requestStreamBased = require('../lib/request-stream-based');
 const express = require('express');
 const app = express();
 
-app.use('/resource', requestStreamBased);
+app.use('/resources', requestStreamBased);
 
 app.get('/api/countries', (req, res) => {
     res.status(200).json([{countryCode: 'USA'}, {countryCode: 'UK'}]);
@@ -28,7 +28,7 @@ describe('Request stream based', () => {
             }
         };
         request(app)
-            .get('/resource?countries=/api/countries&customer=/api/customers/123')
+            .get('/resources?countries=/api/countries&customer=/api/customers/123')
             .set('Accept', 'application/json')
             .expect('Content-Type', /json/)
             .expect((res) => {

@@ -12,7 +12,7 @@ const express = require('express');
 const bunch = require('express-bunch-middleware');
 const app = express();
 
-app.use('/resource', bunch);
+app.use('/resources', bunch);
 
 app.get('/api/users', (req, res) => {
     res.json([{name: 'John', surname: 'Doe'}]);

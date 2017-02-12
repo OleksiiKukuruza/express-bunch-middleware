@@ -2,7 +2,7 @@ const express = require('express');
 const bunch = require('./index');
 const app = express();
 
-app.use('/resource', bunch);
+app.use('/resources', bunch);
 
 app.get('/api/users', (req, res) => {
     setTimeout(() => {
